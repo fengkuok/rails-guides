@@ -24,8 +24,8 @@
       name: Active Record 数据表关联
       url: association_basics.html
       work_in_progress: true
-      contributor: sanatir
-      description: This guide covers all the associations provided by Active Record.
+      contributor: mingyuan0715 allenfantasy
+      description: 该教程包含所有Active Record 提供的所有数据表关联功能。
     -
       name: Active Record 查询接口
       url: active_record_querying.html
@@ -38,7 +38,7 @@
       name: Rails中的布局与渲染
       url: layouts_and_rendering.html
       work_in_progress: true
-      contributor: NaixSpirit
+      contributor: NaixSpirit athurg
       description: This guide covers the basic layout features of Action Controller and Action View, including rendering and redirecting, using content_for blocks, and working with partials.
     -
       name: Action View Form Helpers
@@ -46,6 +46,11 @@
       work_in_progress: true
       contributor: crhan
       description: Guide to using built-in Form helpers.
+    -
+      name: Action View Overview
+      url: action_view_overview.html
+      contributor: Jngai
+      description: Guide to using the user facing view portion.
 -
   name: 控制器(Controllers)
   documents:
@@ -146,16 +151,19 @@
       contributor: wolflee
       description: 这篇指南涵盖了 Rails 与 Rack 集成以及其他 Rack 组件的连接。
     -
-      name: Creating and Customizing Rails Generators
+      name: Rails 生成器的创建及定制
       url: generators.html
-      description: This guide covers the process of adding a brand new generator to your extension or providing an alternative to an element of a built-in Rails generator (such as providing alternative test stubs for the scaffold generator).
+      contributor: wadexing
+      description: 本指南涵盖了 如何为您的扩展编写新的生成器，或是对Rails内置生成器进行定制(比如：为scaffold生成器提供与众不同的测试桩)
+
 -
   name: 为 Ruby on Rails 社区做出贡献
   documents:
     -
-      name: Contributingaaa to Ruby on Rails
+      name: 为 Ruby on Rails 社区做出贡献
       url: contributing_to_ruby_on_rails.html
-      description: Rails is not 'somebody else's framework. This guide covers a variety of ways that you can get involved in the ongoing development of Rails.
+      contributor: allenlsy
+      description: Rails 不是“别人”的框架。这篇指南涵盖一系列参加正在开发的 Rails 项目的方法。
     -
       name: API Documentation Guidelines
       url: api_documentation_guidelines.html
@@ -163,6 +171,8 @@
     -
       name: Ruby on Rails Guides Guidelines
       url: ruby_on_rails_guides_guidelines.html
+      work_in_progress: true
+      contributor: theLibra12
       description: This guide documents the Ruby on Rails guides guidelines.
 -
   name: Release Notes
@@ -180,15 +190,3 @@
       name: Ruby on Rails 3.1 Release Notes
       url: 3_1_release_notes.html
       description: Release notes for Rails 3.1.
-    -
-      name: Ruby on Rails 3.0 Release Notes
-      url: 3_0_release_notes.html
-      description: Release notes for Rails 3.0.
-    -
-      name: Ruby on Rails 2.3 Release Notes
-      url: 2_3_release_notes.html
-      description: Release notes for Rails 2.3.
-    -
-      name: Ruby on Rails 2.2 Release Notes
-      url: 2_2_release_notes.html
-      description: Release notes for Rails 2.2.
